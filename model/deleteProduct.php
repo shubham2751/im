@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                             <div class="row col-sm-6 text-center" style="padding: 20px">
-                                <form method="POST" action="product.php">
+                                <form method="POST" action="deleteProduct.php">
                                     <input type="hidden" value="<?php echo $res['id']; ?>" name="id">
                                         <div class="row">
                                             <div class="text-center">
