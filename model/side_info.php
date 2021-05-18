@@ -21,7 +21,7 @@
             <div class="card text-center" >
                 <h2>About User</h2>
                 <div style="height:100px;"><img src="<?php echo $thisUser['avatar']; ?>" height="100px;" width="100px;" class="img-circle" alt="Please Select your avatar"></div>
-                <p><h4><?php echo $thisUser['name'];  ?></h4> is working in here since <h4><?php echo date('F j, Y', strtotime($thisUser['created_at'])); ?></h4></p>
+                <p><h4><?php echo $thisUser['name'];  ?></h4> User since <h4><?php echo date('F j, Y', strtotime($thisUser['created_at'])); ?></h4></p>
             </div>
             
         </div>
