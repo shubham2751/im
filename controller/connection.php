@@ -1,13 +1,13 @@
 <?php
     function connect(){
-        // $dbHost= "localhost";
-        // // // here mysql port is 3306
-        // $dbHost = "localhost";
-        // $user= "root";
-        // $pass= "";
-        // $dbname="inventory-management";
+    //     $dbHost= "localhost";
+    //     // // // here mysql port is 3306
+    //     $dbHost = "localhost";
+    //     $user= "root";
+    //    $pass= "";
+    //     $dbname="inventory-management";
 
-        $dbHost = "remotemysql.com";
+       $dbHost = "remotemysql.com";
         $user= "Q8jhOPHLc5";
         $pass= "LSHr0CHDvC";
        	$dbname="Q8jhOPHLc5";
